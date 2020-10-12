@@ -1,0 +1,21 @@
+@import "base.css";
+
+.button {
+    -fx-content-display: graphic-only;
+    -fx-focus-traversable: true;
+    -shrink-animate-on-press: true;
+}
+
+#add-view-button {
+    -fx-content-display: graphic-only;
+    -fx-border-width: 2;
+    -fx-border-color: gray;
+    -fx-focus-traversable: true;
+}
+
+#add-view-button:focused {
+    -fx-border-width: 5;
+    -fx-border-color: gray;
+    /*-fx-scale-x: 1.2;*/
+    /*-fx-scale-y: 1.2;*/
+}

@@ -1,0 +1,5 @@
+.transparent-control {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}

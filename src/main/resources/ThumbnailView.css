@@ -1,0 +1,33 @@
+@import "base.css";
+
+#thumbnail-view {
+    -fx-focus-traversable: true;
+}
+
+.current-focused-view .stack-pane {
+    -fx-border-color: gray;
+    -fx-border-width: 5;
+    -fx-padding: 10, 10, 10, 10;
+    /*-fx-scale-x: 1.2;*/
+    /*-fx-scale-y: 1.2;*/
+}
+
+.current-focused-view .shadow-image-view {
+    /*-fx-effect: dropshadow(three-pass-box, black, 200, 0, 0, 0);*/
+}
+
+.shadow-image-view {
+    /*-fx-effect: dropshadow(three-pass-box, black, 20, 0, 0, 0);*/
+}
+
+.text-field {
+    -fx-focus-traversable: false;
+}
+
+.stack-pane {
+    -fx-padding: 0, 0, 0, 0;
+}
+
+#remove-btn:hover {
+    -fx-cursor: hand;
+}

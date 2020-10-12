@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ThumbnailViewController" fx:id="thumbnailView" stylesheets="ThumbnailView.css" id="thumbnail-view">
+    <StackPane fx:id="stackPane" styleClass="stack-pane">
+        <ImageView fx:id="imageView" styleClass="transparent-control,shadow-image-view">
+        </ImageView>
+    </StackPane>
+    <TextField fx:id="nameField" styleClass="transparent-control">
+    </TextField>
+</VBox>
